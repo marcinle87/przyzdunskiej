@@ -369,7 +369,7 @@ export class MyDr {
         //     queryObj.visit_duration = 10;
         // }
         queryObj.department = dep;
-        queryObj.visit_duration = 10;
+        queryObj.visit_duration = 15;
 
         const urlStr = MYDR_URL + "/visits/free_slots/" + "?" + buildUrlQueryData(queryObj);
         const reqInit: RequestInit = {
